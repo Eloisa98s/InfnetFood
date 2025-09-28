@@ -1,109 +1,39 @@
 # InfnetFood
 
-InfnetFood é um aplicativo mobile para pedidos e delivery de lanches e refeições, desenvolvido com React Native e Expo. O app oferece funcionalidades completas como login, navegação por categorias, carrinho de compras, perfil de usuário, acompanhamento de pedidos, mapa de restaurantes, checkout, tema personalizável e notificações simuladas.
+Aplicativo mobile de pedidos e delivery de refeições feito com React Native e Expo.
 
-## 📁 Estrutura do Projeto
-```text
-InfnetFood/
-│── App.js
-│── package.json
-│── babel.config.js
-│── assets/
-│   ├── logo.png
-│   └── map.png
-└── src/
-    ├── api/               
-    ├── components/        
-    ├── navigation/        
-    ├── screens/           
-    ├── store/             
-    └── theme/             
-```
+## Funcionalidades
 
+- Login simulado (qualquer e-mail/senha funciona)
 
-## ⚡ Funcionalidades Principais
-- Login simples com dados simulados (mockados)
+- Listagem de categorias de pratos
 
-- Tela inicial (Home) com categorias de refeições exibidas em FlatList
+- Listagem de pratos por categoria
 
-- Listagem de produtos por categoria com cards estilizados
+- Detalhes de cada prato
 
-- Carrinho de compras gerenciando itens adicionados e cálculo do total
+- Carrinho de compras: adicionar, remover e atualizar quantidade
 
-- Perfil do usuário com informações básicas
+- Confirmação de pedido (mock)
 
-- Visualização de pedidos com dados mockados
+- Busca por categorias
 
-- Mapa simulado mostrando localização dos restaurantes
+## Tecnologias
 
-- Detalhes de restaurante incluindo endereço e itens do cardápio
-
-- Checkout com preenchimento de endereço e pagamento com validação básica
-
-- Fluxo de autenticação com rotas públicas (login) e privadas (home e demais)
-
-- Feedback visual ao adicionar produtos no carrinho
-
-- Suporte a temas claro e escuro com troca via configurações
-
-- Notificações simuladas para status de pedidos
-
-- Consumo da API pública TheMealDB para categorias e produtos
-
-- Estrutura preparada para testes unitários com Jest
-
-- Pronto para publicação via Expo
-
-## 🛠️ Tecnologias Utilizadas
 - React Native
 
-- Expo (CLI e Go)
+- Expo
 
-- React Navigation para controle de rotas
+- React Navigation
 
-- Context API para gerenciamento global de estado (usuário e carrinho)
+- API pública: TheMealDB
 
-- FlatList para renderização eficiente de listas
+## Como usar no Snack
 
-- Lottie (opcional, para animações)
+- Abra o Expo Snack
 
-- TheMealDB API para dados de refeições e categorias
+- Cole o código do app
 
-## 🚀 Como Rodar o Projeto
-Clone este repositório para sua máquina local:
+- Execute e teste no emulador ou no seu celular com o Expo Go
 
-```bash
-git clone <URL do repositório>
-cd InfnetFood
-Abra o projeto no VSCode ou sua IDE preferida.
-```
-
-Instale as dependências:
-
-```bash
-npm install
-```
-Inicie o servidor Expo:
-
-```bash
-npx expo start
-Abra o app no emulador Android/iOS ou utilize o app Expo Go no seu celular para escanear o QR code exibido.
-```
-
-## 🎨 Notas de Design
-- Interfaces construídas com FlatList para desempenho otimizado em listas de categorias e produtos
-
-- Cartões visualmente estilizados para melhor usabilidade e estética
-
-- Tema claro e escuro configurável nas preferências do usuário
-
-- Feedback visual simples e direto ao adicionar itens ao carrinho
-
-## 📌 Próximos Passos
-- Implementar notificações push reais via Expo Notifications
-
-- Integrar backend real para gerenciamento de usuários, pedidos e pagamentos
-
-- Melhorar responsividade e incluir animações para enriquecer a experiência do usuário
-
-## 📸 Capturas de Tela
+## Imagens
