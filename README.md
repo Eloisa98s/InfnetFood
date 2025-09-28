@@ -1,8 +1,9 @@
-InfnetFood
+# InfnetFood
+
 InfnetFood é um aplicativo mobile para pedidos e delivery de lanches e refeições, desenvolvido com React Native e Expo. O app oferece funcionalidades completas como login, navegação por categorias, carrinho de compras, perfil de usuário, acompanhamento de pedidos, mapa de restaurantes, checkout, tema personalizável e notificações simuladas.
 
-📁 Estrutura do Projeto
-text
+## 📁 Estrutura do Projeto
+```text
 InfnetFood/
 │── App.js
 │── package.json
@@ -11,92 +12,98 @@ InfnetFood/
 │   ├── logo.png
 │   └── map.png
 └── src/
-    ├── api/               # Consumo da API de alimentos (TheMealDB)
-    ├── components/        # Componentes reutilizáveis (cards, itens do carrinho, etc.)
-    ├── navigation/        # Configuração da navegação (AuthStack, AppStack, RootNavigator)
-    ├── screens/           # Telas do aplicativo (Login, Home, Produtos, Checkout, Mapa, Perfil)
-    ├── store/             # Contextos para estado global (usuário, carrinho)
-    └── theme/             # Configurações de cores e temas (claro/escuro)
-⚡ Funcionalidades Principais
-Login simples com dados simulados (mockados)
+    ├── api/               
+    ├── components/        
+    ├── navigation/        
+    ├── screens/           
+    ├── store/             
+    └── theme/             
+```
 
-Tela inicial (Home) com categorias de refeições exibidas em FlatList
 
-Listagem de produtos por categoria com cards estilizados
+## ⚡ Funcionalidades Principais
+- Login simples com dados simulados (mockados)
 
-Carrinho de compras gerenciando itens adicionados e cálculo do total
+- Tela inicial (Home) com categorias de refeições exibidas em FlatList
 
-Perfil do usuário com informações básicas
+- Listagem de produtos por categoria com cards estilizados
 
-Visualização de pedidos com dados mockados
+- Carrinho de compras gerenciando itens adicionados e cálculo do total
 
-Mapa simulado mostrando localização dos restaurantes
+- Perfil do usuário com informações básicas
 
-Detalhes de restaurante incluindo endereço e itens do cardápio
+- Visualização de pedidos com dados mockados
 
-Checkout com preenchimento de endereço e pagamento com validação básica
+- Mapa simulado mostrando localização dos restaurantes
 
-Fluxo de autenticação com rotas públicas (login) e privadas (home e demais)
+- Detalhes de restaurante incluindo endereço e itens do cardápio
 
-Feedback visual ao adicionar produtos no carrinho
+- Checkout com preenchimento de endereço e pagamento com validação básica
 
-Suporte a temas claro e escuro com troca via configurações
+- Fluxo de autenticação com rotas públicas (login) e privadas (home e demais)
 
-Notificações simuladas para status de pedidos
+- Feedback visual ao adicionar produtos no carrinho
 
-Consumo da API pública TheMealDB para categorias e produtos
+- Suporte a temas claro e escuro com troca via configurações
 
-Estrutura preparada para testes unitários com Jest
+- Notificações simuladas para status de pedidos
 
-Pronto para publicação via Expo
+- Consumo da API pública TheMealDB para categorias e produtos
 
-🛠️ Tecnologias Utilizadas
-React Native
+- Estrutura preparada para testes unitários com Jest
 
-Expo (CLI e Go)
+- Pronto para publicação via Expo
 
-React Navigation para controle de rotas
+## 🛠️ Tecnologias Utilizadas
+- React Native
 
-Context API para gerenciamento global de estado (usuário e carrinho)
+- Expo (CLI e Go)
 
-FlatList para renderização eficiente de listas
+- React Navigation para controle de rotas
 
-Lottie (opcional, para animações)
+- Context API para gerenciamento global de estado (usuário e carrinho)
 
-TheMealDB API para dados de refeições e categorias
+- FlatList para renderização eficiente de listas
 
-🚀 Como Rodar o Projeto
+- Lottie (opcional, para animações)
+
+- TheMealDB API para dados de refeições e categorias
+
+## 🚀 Como Rodar o Projeto
 Clone este repositório para sua máquina local:
 
-bash
+```bash
 git clone <URL do repositório>
 cd InfnetFood
 Abra o projeto no VSCode ou sua IDE preferida.
+```
 
 Instale as dependências:
 
-bash
+```bash
 npm install
+```
 Inicie o servidor Expo:
 
-bash
+```bash
 npx expo start
 Abra o app no emulador Android/iOS ou utilize o app Expo Go no seu celular para escanear o QR code exibido.
+```
 
-🎨 Notas de Design
-Interfaces construídas com FlatList para desempenho otimizado em listas de categorias e produtos
+## 🎨 Notas de Design
+- Interfaces construídas com FlatList para desempenho otimizado em listas de categorias e produtos
 
-Cartões visualmente estilizados para melhor usabilidade e estética
+- Cartões visualmente estilizados para melhor usabilidade e estética
 
-Tema claro e escuro configurável nas preferências do usuário
+- Tema claro e escuro configurável nas preferências do usuário
 
-Feedback visual simples e direto ao adicionar itens ao carrinho
+- Feedback visual simples e direto ao adicionar itens ao carrinho
 
-📌 Próximos Passos
-Implementar notificações push reais via Expo Notifications
+## 📌 Próximos Passos
+- Implementar notificações push reais via Expo Notifications
 
-Integrar backend real para gerenciamento de usuários, pedidos e pagamentos
+- Integrar backend real para gerenciamento de usuários, pedidos e pagamentos
 
-Melhorar responsividade e incluir animações para enriquecer a experiência do usuário
+- Melhorar responsividade e incluir animações para enriquecer a experiência do usuário
 
-📸 Capturas de Tela
+## 📸 Capturas de Tela
